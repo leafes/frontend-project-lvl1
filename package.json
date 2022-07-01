@@ -17,10 +17,12 @@
     "url": "https://github.com/leafes/frontend-project-lvl1/issues"
   },
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "homepage": "https://github.com/leafes/frontend-project-lvl1#readme",
   "dependencies": {
+    "mathjs": "^10.6.4",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {

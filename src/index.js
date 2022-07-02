@@ -1,11 +1,11 @@
 import readlineSync from 'readline-sync';
 
 export const askUsername = () => {
-  const usernaname = readlineSync.question("What's your name? ");
+  const username = readlineSync.question("What's your name? ");
   return username;
 };
 
-const generateGame = (questions, correctAnswers, username) => {
+export const generateGame = (questions, correctAnswers, username) => {
 
   for (let i = 0; i < 3; i += 1) {
     console.log(`Question: ${questions[i]}`);
@@ -14,15 +14,13 @@ const generateGame = (questions, correctAnswers, username) => {
     if (answer === correctAnswers[i]) {
       console.log('Correct!');
 
-      if (i === 2) return `Congratulations, {username}!`;
+      if (i === 2) return console.log(`Congratulations, ${username}!`);
 
     } else {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswers[i]}'.`);
 
-      return `Let's try again, {username}`;
+      return console.log(`Let's try again, ${username}!`);
     }
   }
   
 };
-
-export default generateGame;

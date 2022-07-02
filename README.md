@@ -2,7 +2,7 @@
 
 first game (even or not): 
 https://asciinema.org/a/mThDeLnp88XgUqqosN7ScMEXN
-second game (calculations):
+<br>second game (calculations):
 https://asciinema.org/a/aw4HUs1YfCCWhRspeGcc5ardF
 
 [![Actions Status](https://github.com/leafes/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/leafes/frontend-project-lvl1/actions)

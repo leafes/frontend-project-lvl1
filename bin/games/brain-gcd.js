@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { askUsername, generateGame } from '../../src/index.js';
 
 // Блок приветствия

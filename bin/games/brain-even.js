@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
-import readlineSync from 'readline-sync';
-import {askUsername, generateGame} from '../../src/index.js';
+import { askUsername, generateGame } from '../../src/index.js';
 
 // Блок приветствия
 console.log('Welcome to the Brain Games!');

@@ -18,19 +18,19 @@ const operators = ['+', '-', '*'];
 
 for (let i = 0; i < 3; i += 1) {
   const operator = operators[Math.floor(Math.random() * operators.length)];
-  const firstRandomOperand = Math.floor(Math.random() * (MAX_NUMBER - MIN_NUMBER - 1) + MIN_NUMBER);
-  const secondRandomOperand = Math.floor(Math.random() * (MAX_NUMBER - MIN_NUMBER - 1) + MIN_NUMBER);
-  const generatedQuestion = `${firstRandomOperand} ${operator} ${secondRandomOperand}`;
+  const firstOperand = Math.floor(Math.random() * (MAX_NUMBER - MIN_NUMBER - 1) + MIN_NUMBER);
+  const secondOperand = Math.floor(Math.random() * (MAX_NUMBER - MIN_NUMBER - 1) + MIN_NUMBER);
+  const generatedQuestion = `${firstOperand} ${operator} ${secondOperand}`;
   let generatedAnswer = 0;
   switch (operator) {
     case '+':
-      generatedAnswer = firstRandomOperand + secondRandomOperand;
+      generatedAnswer = firstOperand + secondOperand;
       break;
     case '-':
-      generatedAnswer = firstRandomOperand - secondRandomOperand;
+      generatedAnswer = firstOperand - secondOperand;
       break;
     default:
-      generatedAnswer = firstRandomOperand * secondRandomOperand;
+      generatedAnswer = firstOperand * secondOperand;
       break;
   }
   generatedAnswer = String(generatedAnswer);

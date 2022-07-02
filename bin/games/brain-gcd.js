@@ -26,6 +26,7 @@ const greatestCommonDivisor = (aDivisors, bDivisors) => { // поиск боль
   for (const aDivisor of aDivisors) {
     if (bDivisors.includes(aDivisor)) return aDivisor;
   }
+  return 1;
 };
 
 for (let i = 0; i < 3; i += 1) {

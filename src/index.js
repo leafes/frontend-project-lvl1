@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync';
 
 export const askUsername = () => {
-  const username = readlineSync.question("What's your name? ");
+  const username = readlineSync.question("May I have your name? ");
   return username;
 };
 export const generateRandomNumber = (min, max) => {

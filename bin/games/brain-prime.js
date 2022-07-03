@@ -24,5 +24,5 @@ for (let i = 0; i < 3; i += 1) {
   questions.push(questionNumber);
   correctAnswers.push(answer);
 }
-console.log(correctAnswers);
+
 generateGame(questions, correctAnswers, username);

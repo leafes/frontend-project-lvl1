@@ -1,3 +1,22 @@
+### A set of simple mathematical games in the CLI.
+
+What I learned during this project:
+Initializing and configuring an npm project
+Installing and configuring npm packages
+Structuring the project
+Git :)
+ESlinter: setting up and using in a project
+
+## Installation guide:
+install dependancies 
+
+	make install
+global link so u can start games without full path to files, through comands like brain-calc
+
+	npm link
+start the game 
+
+	brain-calc
 ### Hexlet tests and linter status:
 
 [![Actions Status](https://github.com/leafes/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/leafes/frontend-project-lvl1/actions)

@@ -21,12 +21,12 @@ const divisors = (a) => { // поиск делителей числа
   }
   return result;
 };
-
-const greatestCommonDivisor = (aDivisors, bDivisors) => { // поиск большего общего делителя
-  for (const aDivisor of aDivisors) {
-    if (bDivisors.includes(aDivisor)) return aDivisor;
+/* поиск большего общего делителя, линтер ругается на for .. of */
+const greatestCommonDivisor = (aDivisors, bDivisors) => {
+  for (let i = 0; i < aDivisors.length; i += 1) {
+    if (bDivisors.includes(aDivisors[i])) return aDivisors[i];
   }
-  return 1;
+  return null;
 };
 
 for (let i = 0; i < 3; i += 1) {

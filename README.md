@@ -1,4 +1,4 @@
-## A set of simple mathematical games in the CLI.
+## :golf: A set of simple mathematical games in the CLI.
 [![asciicast](https://asciinema.org/a/kQKFUv7Ci2L0hlLWZEFBX6bc2.svg)](https://asciinema.org/a/kQKFUv7Ci2L0hlLWZEFBX6bc2)
 What I learned during this project:
 <ul>

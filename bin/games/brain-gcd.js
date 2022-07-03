@@ -32,7 +32,7 @@ const greatestCommonDivisor = (aDivisors, bDivisors) => { // поиск боль
 for (let i = 0; i < 3; i += 1) {
   const firstOperand = Math.floor(Math.random() * (MAX_NUMBER - MIN_NUMBER - 1) + MIN_NUMBER);
   const secondOperand = Math.floor(Math.random() * (MAX_NUMBER - MIN_NUMBER - 1) + MIN_NUMBER);
-  const question = `${firstOperand}, ${secondOperand}`;
+  const question = `${firstOperand} ${secondOperand}`;
   questions.push(question);
 
   const firstOperandDiv = divisors(firstOperand);

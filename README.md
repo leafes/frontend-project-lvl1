@@ -5,6 +5,7 @@
 <li>Initializing and configuring an npm project</li>
 <li>Installing and configuring npm packages</li>
 <li>Structuring the project</li>
+<li>Makefile</li>
 <li>proper usage of Git :)</li>
 <li>ESlinter: setting up and using in a project</li>
 </ul>

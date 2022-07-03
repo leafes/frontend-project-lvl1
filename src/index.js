@@ -4,7 +4,16 @@ export const askUsername = () => {
   const username = readlineSync.question('May I have your name? ');
   return username;
 };
+
 export const generateRandomNumber = (min, max) => Math.floor(Math.random() * (max - min - 1) + min);
+
+export const divisors = (a) => { // поиск делителей числа
+  const result = [];
+  for (let i = a; i >= 1; i -= 1) {
+    if (a % i === 0) result.push(i);
+  }
+  return result;
+};
 
 export const generateGame = (questions, correctAnswers, username) => {
   for (let i = 0; i < 3; i += 1) {

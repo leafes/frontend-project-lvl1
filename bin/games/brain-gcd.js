@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { askUsername, generateGame } from '../../src/index.js';
+import { askUsername, generateGame, divisors } from '../../src/index.js';
 
 // Блок приветствия
 console.log('Welcome to the Brain Games!');
@@ -14,13 +14,6 @@ const MAX_NUMBER = 100;
 const questions = [];
 const correctAnswers = [];
 
-const divisors = (a) => { // поиск делителей числа
-  const result = [];
-  for (let i = a; i >= 1; i -= 1) {
-    if (a % i === 0) result.push(i);
-  }
-  return result;
-};
 /* поиск большего общего делителя, линтер ругается на for .. of */
 const greatestCommonDivisor = (aDivisors, bDivisors) => {
   for (let i = 0; i < aDivisors.length; i += 1) {

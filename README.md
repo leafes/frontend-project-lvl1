@@ -1,6 +1,6 @@
-## :golf:<space><space>A set of simple mathematical CLI games
+## A set of simple mathematical CLI games
 [![asciicast](https://asciinema.org/a/kQKFUv7Ci2L0hlLWZEFBX6bc2.svg)](https://asciinema.org/a/kQKFUv7Ci2L0hlLWZEFBX6bc2)
-What I learned during this project:
+:golf: What I learned during this project:
 <ul>
 <li>Initializing and configuring an npm project</li>
 <li>Installing and configuring npm packages</li>
@@ -21,11 +21,11 @@ start the game
 	brain-calc
 
 list of games: 
-	brain-calc
-	brain-even
-	brain-gcd
-	brain-prime
-	brain-progression
+		brain-calc
+		brain-even
+		brain-gcd
+		brain-prime
+		brain-progression
 
 ### Hexlet tests and linter status:
 

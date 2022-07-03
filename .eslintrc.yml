@@ -12,3 +12,4 @@ rules:
     - ignorePackages
     - js: always
   no-tabs: 0
+  no-restricted-syntax: 0

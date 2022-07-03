@@ -18,7 +18,7 @@ const generateProgression = () => {
   const progression = [];
   const step = generateRandomNumber(MIN_NUMBER, MAX_NUMBER);
   const element = generateRandomNumber(MIN_NUMBER, MAX_NUMBER);
-  const length = generateRandomNumber(4, 11) * step;
+  const length = generateRandomNumber(5, 11) * step;
 
   for (let i = step; i <= length; i += step) {
     progression.push(i + element);
@@ -32,7 +32,7 @@ for (let i = 0; i < 3; i += 1) {
   const hiddenIndex = Math.floor(Math.random() * progression.length);
   const answer = String(progression[hiddenIndex]);
 
-  progression[hiddenIndex] = '...';
+  progression[hiddenIndex] = '..';
   progression = progression.join(' ');
   questions.push(progression);
   correctAnswers.push(answer);

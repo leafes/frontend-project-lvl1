@@ -1,11 +1,13 @@
 ## A set of simple mathematical games in the CLI.
 
 What I learned during this project:
-Initializing and configuring an npm project
-Installing and configuring npm packages
-Structuring the project
-Git :)
-ESlinter: setting up and using in a project
+<ul>
+<li>Initializing and configuring an npm project</li>
+<li>Installing and configuring npm packages</li>
+<li>Structuring the project</li>
+<li>proper usage of Git :)</li>
+<li>ESlinter: setting up and using in a project</li>
+</ul>
 
 ### Installation guide:
 install dependancies 
@@ -24,7 +26,7 @@ list of games:
 	brain-gcd
 	brain-prime
 	brain-progression
-	
+
 ### Hexlet tests and linter status:
 
 [![Actions Status](https://github.com/leafes/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/leafes/frontend-project-lvl1/actions)

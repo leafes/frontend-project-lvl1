@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 
-import { askUsername, generateGame, generateRandomNumber, divisors } from '../../src/index.js';
+import {
+  askUsername, generateGame, generateRandomNumber, divisors,
+} from '../../src/index.js';
 
 // Блок приветствия
 console.log('Welcome to the Brain Games!');
@@ -14,7 +16,7 @@ const MAX_NUMBER = 100;
 const questions = [];
 const correctAnswers = [];
 
-const isPrime = (a) => (divisors(a).length <= 2) ? true : false;
+const isPrime = (a) => (divisors(a).length <= 2);
 
 for (let i = 0; i < 3; i += 1) {
   const questionNumber = generateRandomNumber(MIN_NUMBER, MAX_NUMBER);
